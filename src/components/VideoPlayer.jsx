@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
 import PurchaseModal from "./PurchaseModal";
 
-
 export default () => {
-  const [isVideoModalOpen, setIsVideoOpen] = useState(false);
+  const [isVideoModalOpen, setIsVideoOpen] = useState(true);
 
   return (
     <>

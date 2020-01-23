@@ -68,3 +68,41 @@ body {
     left: 0;
     top: 0;
 }
+
+.back-mobile{
+
+}
+
+.btn{
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+    display: block;
+    background: #000;
+    color: #fff;
+    font-size: 15px;
+    height: 40px;
+    line-height: 40px;
+}
+
+.back span{
+    width: 100%;
+    text-align: center;
+    background: #fff;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    letter-spacing: 0;
+    cursor: pointer;
+}
+
+.product-description{
+    margin: 1em;
+}
+
+
+h3, h4, h5{
+    font-weight: normal;
+}
