@@ -50,9 +50,6 @@ body {
 .purchase-modal{
     z-index: 2;
     position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     width: 80%;
     background-color: #eee;
     padding: 20px;

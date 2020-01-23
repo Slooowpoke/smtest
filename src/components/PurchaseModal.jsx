@@ -1,5 +1,6 @@
 import React from 'react';
 import Product from "./Product";
+import { motion } from "framer-motion"
 
 export default ({ closeModal }) => {
   // TODO We would fetch the data in from somewhere else and pass it in here to make this reusable
@@ -17,9 +18,14 @@ export default ({ closeModal }) => {
         e.stopPropagation();
         closeModal();
       }} />
-      <div className={"purchase-modal"}>
+      <motion.div
+        initial={{ transform: "scale(0)" }}
+        animate={{ transform: "scale(1)" }}
+        exit={{ transform: "scale(0)" }}
+        className="purchase-modal"
+      >
         <Product data={data} closeModal={closeModal}/>
-      </div>
+      </motion.div>
     </>
   )
 }
