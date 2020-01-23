@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import VideoPlayer from "./VideoPlayer";
 
 export default () => (
   <div className="app">
@@ -8,9 +9,7 @@ export default () => (
       <h1>{"Smartzer Coding Test"}</h1>
     </header>
     <section className={"body"}>
-      <div className={"pretend-video-player"}>
-
-      </div>
+      <VideoPlayer />
     </section>
   </div>
 );

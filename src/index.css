@@ -1,48 +1,48 @@
 body {
-  margin: 0 1em;
-  font-family: 'gotham',
+    margin: 0 1em;
+    font-family: 'gotham',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background: #eeeeee;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: #eeeeee;
 }
 
 @font-face {
-  font-family: 'gotham';
-  src: local('gotham'), url('/fonts/gotham-book.ttf') format('ttf');
+    font-family: 'gotham';
+    src: local('gotham'), url('/fonts/gotham-book.ttf') format('ttf');
 }
 
-.pretend-video-player{
-  width: 100%;
-  max-width: 620px;
-  background: #1b1b1b;
-  border-radius: 2px;
-  margin: 6em auto;
-  height: 55vh;
-  cursor: pointer;
-  position: relative;
+.pretend-video-player {
+    width: 100%;
+    max-width: 620px;
+    background: #1b1b1b;
+    border-radius: 2px;
+    margin: 6em auto;
+    height: 55vh;
+    cursor: pointer;
+    position: relative;
 }
 
-.pretend-video-player:after{
-  content: "VIDEO PLAYER";
-  position: absolute;
-  color: #fff;
-  margin-top: 20px;
-  margin-left: 20px;
+.pretend-video-player:after {
+    content: "VIDEO PLAYER";
+    position: absolute;
+    color: #fff;
+    margin-top: 20px;
+    margin-left: 20px;
 }
 
 @media screen and (min-width: 720px) {
-  .pretend-video-player{
-    height: 340px;
-  }
+    .pretend-video-player {
+        height: 340px;
+    }
 }
 
-.app{
-  margin: 6em auto;
-  max-width: 1024px;
+.app {
+    margin: 6em auto;
+    max-width: 1024px;
 }
 
-.header h1{
-  font-size: 43px;
-  text-transform: uppercase;
+.header h1 {
+    font-size: 43px;
+    text-transform: uppercase;
 }
