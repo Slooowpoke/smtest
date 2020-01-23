@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80889403-897c-44cc-849d-f288305154f8" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/public/product-images/img1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/product-images/img2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/product-images/img3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/product-images/img4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Gallery.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Product.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/PurchaseModal.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PurchaseModal.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VideoPlayer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/VideoPlayer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Gallery.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Gallery.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Product.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Product.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -78,8 +69,8 @@
       <file leaf-file-name="Product.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Product.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="6" column="31" lean-forward="true" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+            <state relative-caret-position="212">
+              <caret line="15" column="33" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="33" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -90,8 +81,8 @@
       <file leaf-file-name="Gallery.jsx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Gallery.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="2" column="26" lean-forward="true" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+            <state relative-caret-position="212">
+              <caret line="26" column="85" selection-start-line="26" selection-start-column="85" selection-end-line="26" selection-end-column="85" />
             </state>
           </provider>
         </entry>
@@ -99,8 +90,8 @@
       <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="512">
-              <caret line="106" column="24" selection-start-line="106" selection-start-column="24" selection-end-line="106" selection-end-column="24" />
+            <state relative-caret-position="154">
+              <caret line="47" column="1" lean-forward="true" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -119,6 +110,14 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>modal</find>
+      <find>gallery</find>
+      <find>height: 8-0</find>
+      <find>purchase</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -133,8 +132,8 @@
         <option value="$PROJECT_DIR$/src/app.jsx" />
         <option value="$PROJECT_DIR$/src/components/VideoPlayer.jsx" />
         <option value="$PROJECT_DIR$/src/components/PurchaseModal.jsx" />
-        <option value="$PROJECT_DIR$/src/index.css" />
         <option value="$PROJECT_DIR$/src/components/Product.jsx" />
+        <option value="$PROJECT_DIR$/src/index.css" />
         <option value="$PROJECT_DIR$/src/components/Gallery.jsx" />
       </list>
     </option>
@@ -243,18 +242,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579801191105</updated>
-      <workItem from="1579801193066" duration="2981000" />
+      <workItem from="1579801193066" duration="4047000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2981000" />
+    <option name="totallyTimeSpent" value="4047000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15277778" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15277778" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Cargo" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
@@ -263,7 +262,7 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="npm" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.3097826" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.3097826" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -286,7 +285,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/components/Product.jsx</url>
-          <line>19</line>
+          <line>22</line>
           <properties lambdaOrdinal="-1" />
         </line-breakpoint>
       </breakpoints>
@@ -344,27 +343,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="106" column="24" selection-start-line="106" selection-start-column="24" selection-end-line="106" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Product.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="6" column="31" lean-forward="true" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+        <state relative-caret-position="212">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="33" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="47" column="1" lean-forward="true" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Gallery.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="26" lean-forward="true" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        <state relative-caret-position="212">
+          <caret line="26" column="85" selection-start-line="26" selection-start-column="85" selection-end-line="26" selection-end-column="85" />
         </state>
       </provider>
     </entry>

@@ -4,7 +4,7 @@ body {
     sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background: #eeeeee;
+    background: #fbfbfb;
 }
 
 @font-face {
@@ -54,9 +54,9 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 80%;
-    height: 80%;
-    background-color: #eeee;
-    border: 1px solid #333;
+    background-color: #eee;
+    padding: 20px;
+    max-width: 1024px;
 }
 
 .modal-backdrop{
@@ -105,4 +105,58 @@ body {
 
 h3, h4, h5{
     font-weight: normal;
+}
+
+.image-wrapper{
+    height: 490px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    flex: 1;
+}
+
+.desktop-side-images{
+    display: none;
+}
+.images-wrapper{
+    display: flex;
+}
+
+.product-details{
+    display: none;
+}
+
+@media screen and (min-width: 720px) {
+    .gallery{
+        width: 80%;
+    }
+    .desktop-side-images{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .desktop-side-images img{
+        height: 120px;
+    }
+
+    .product{
+        display: flex;
+    }
+
+    .product-description{
+        width: 50%;
+        margin-left: 2em;
+    }
+
+    .back{
+        width: 60px;
+        right: 0;
+        top: 0;
+        position: absolute;
+    }
+
+    .product-details{
+        display: block;
+    }
+
 }
